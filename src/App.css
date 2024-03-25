@@ -1,0 +1,35 @@
+* {
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.goto-top-button {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  z-index: 1;
+  font-weight: bold;
+  box-shadow: 0 0 12px 1px #ffc1074a;
+}
+
+
+.card {
+  border: none !important;
+}
+
+.dark .card {
+  background: #111315;
+}
+
+.nav-item a {
+  color: #d1d1d1;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.nav-item a:hover {
+  color: #c1dbf1;
+}
+
+.light .brand-text {
+  color: #fff;
+}
